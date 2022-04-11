@@ -158,7 +158,7 @@ header{
        }
        .fondoFooter{
            grid-area: footer;
-           background-color: aquamarine;
+           background-color: rgb(175, 248, 72);
        }
 
    }
