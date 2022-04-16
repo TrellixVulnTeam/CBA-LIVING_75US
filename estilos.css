@@ -55,13 +55,15 @@ header{
 .info img{
         width: 30px;
         height: 30px;
+       
     }
 
 .info img{
         background-image: url(../Imagenes/imglogo.jpg);
         width: 400px;
         height: 200px;
-        padding-bottom: 10px;
+        
+       
     }
 
 .info{
@@ -100,7 +102,7 @@ header{
      }
     
     
-    .contenedorPrincipal{
+     .contenedorPrincipal{
         display: grid;
         grid-template-columns: repeat(4fr 1fr);
         grid-template-rows: 0,2fr 0,1fr 1fr;
