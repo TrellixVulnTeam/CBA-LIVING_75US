@@ -9,7 +9,7 @@
 
 ul li a{
     text-decoration: none;
-    color: #292626;
+    color: #030101;
 }
 
 
@@ -52,25 +52,27 @@ header{
         font-family: Arial, Helvetica, sans-serif
 
      }
-.info img{
-        width: 30px;
-        height: 30px;
-       
-    }
+.nosotros{
+    background-color: darksalmon;
+}
 
-.info img{
-        background-image: url(../Imagenes/imglogo.jpg);
-        width: 400px;
-        height: 200px;
-        
-       
-    }
+.mainNosotros{
+    height: 50rem;
+    border-radius: 2rem;
+    padding: 0.1rem;
+    width: 75rem;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
 
-.info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 50px;
+.infoIndex{
+    height: 60rem;
+    border-radius: 3rem;
+    padding: 0.1rem;
+    width: 75rem;
+
+}
+
 }
 .info p{
     color: #292626;
@@ -79,15 +81,19 @@ header{
 }
 .contenedor-menu ul{
     display: flex;
+    background-color: ;
 }
 .nosotrosindex{
     background-color: #e2e9ec;
     padding: 10px;
 }
+
+
+
 .contenedor-menu{
         
-         background-color: #fde8b7;
-         width: 1000px;
+         background-color: #f3dfb2;
+         width: 1350px;
          height: 100px;
          display: flex;
          justify-content: space-between
@@ -127,12 +133,40 @@ header{
     }
 
     
-    body{
-        background-color: #f0dc86;
-        padding: 5px;
-        display: grid;
-        grid-template-columns: 1fr;   
-        }
+
+    .fondoHeader{
+    display: grid;
+    background-color: #eee5cd;
+    }
+    .fondoBody{
+    background-color: #f6e696;
+    }
+    .formulario{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 8rem auto;
+    align-items: center;
+    width: 50rem;
+    height: auto;
+    border-radius: 1,5rem;
+    }
+
+    .formularioInput{
+    width: 40rem;
+    height: 4rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    border: solid;
+    border-width: 0.1rem;
+    }
+    .formularioInput{  
+    height: 3rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+            
+    }
 
    @media screen and (min-width:768px) {
        body{
@@ -152,11 +186,12 @@ header{
        }
        .contenedor-menu{
            grid-area: nav;
-           background-color: #ec6f56;
+           background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(221,160,129,0.969625350140056) 35%, rgba(0,212,255,1) 100%);
        }
        .nosotrosindex{
            grid-area: section;
-           background-color: #f0dc86;
+           background-color: #f0ebd0;
        }
        .fondoFooter{
            grid-area: footer;
@@ -172,7 +207,20 @@ header{
            "nav nav section section"
            "nav nav section section"
            "footer footer footer footer"
-       }
-       
-   }
-   
+        }
+    @media (max-width: 500px) and (min-width: 100px) {
+       .nav ul{
+           flex-direction: column;
+           align-items: center;
+       } 
+    }
+
+    a:hover{
+        font-weight: bold;
+        background-color: #eeddac;
+        color:#1e3945;
+        text-decoration: underline;
+    }
+    .fondoImagenes{
+        background-image: linear-gradient(180deg, #d7a66c 0, #db9e6a 7.14%, #dd9567 14.29%, #df8b65 21.43%, #df8064 28.57%, #df7363 35.71%, #dc6564 42.86%, #d85565 50%, #d24568 57.14%, #cc356d 64.29%, #c32774 71.43%, #ba1c7d 78.57%, #ae1786 85.71%, #a01a91 92.86%, #8f219b 100%);
+    }
