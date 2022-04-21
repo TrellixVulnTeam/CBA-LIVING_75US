@@ -1,0 +1,17 @@
+.menu li {
+  display: inline-block;
+  position: relative;
+  padding: 10px 10px;
+  font-weight: bold; }
+  .menu li a {
+    text-decoration: none;
+    color: aquamarine; }
+
+.fondoFooter {
+  background-color: #92e8d5;
+  color: #292626;
+  text-align: center;
+  padding: 0px; }
+  .fondoFooter a {
+    text-decoration: none;
+    color: lightcoral; }
