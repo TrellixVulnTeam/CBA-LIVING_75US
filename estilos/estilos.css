@@ -207,12 +207,7 @@ header{
            "nav nav section section"
            "footer footer footer footer"
         }
-    @media (max-width: 500px) and (min-width: 100px) {
-       .nav ul{
-           flex-direction: column;
-           align-items: center;
-       } 
-    }
+
 
     a:hover{
         font-weight: bold;
