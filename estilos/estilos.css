@@ -1,5 +1,4 @@
-
-.menu li{
+.menu li {
     display: inline-block;
     position: relative;
     padding: 10px 10px;
@@ -7,17 +6,17 @@
 
 
 
-.ul li a{
+.ul li a {
     text-decoration: none;
     color: #030101;
 }
 
 
-.cajaMolesta{
+.cajaMolesta {
     position: relative;
 }
 
-.fondoFooter{
+.fondoFooter {
     background-color: #6f6eb0;
     color: #292626;
     text-align: center;
@@ -27,45 +26,47 @@
 
 
 
-    
-.cajaContenedora{
-        background-color: #ddec56;
-        color: #ec6f56;
-        padding: 20px 0;
-        height: 200px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
-    }
-.cajaContenedora div{
-        width: 100px;
-        height: 100px;
-        background-color: #464343;
-        margin: 0 20px;
-        font-size: 50px;
-        
-    }
-header{
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif
 
-     }
-.nosotros{
+.cajaContenedora {
+    background-color: #ddec56;
+    color: #ec6f56;
+    padding: 20px 0;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.cajaContenedora div {
+    width: 100px;
+    height: 100px;
+    background-color: #464343;
+    margin: 0 20px;
+    font-size: 50px;
+
+}
+
+header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.nosotros {
     background-color: darksalmon;
 }
 
-.mainNosotros{
+.mainNosotros {
     height: 50rem;
     border-radius: 2rem;
     padding: 0.1rem;
     width: 75rem;
     background-position: center;
     background-repeat: no-repeat;
- }
+}
 
-.infoIndex{
+.infoIndex {
     height: 60rem;
     border-radius: 3rem;
     padding: 0.1rem;
@@ -74,41 +75,43 @@ header{
 }
 
 
-.info p{
+.info p {
     color: #292626;
     padding: 0 30px;
     width: 400px;
 }
-.contenedor-menu ul{
+
+.contenedor-menu ul {
     display: flex;
-    background-color: navajowhite ;
+    background-color: navajowhite;
 }
-.nosotrosindex{
+
+.nosotrosindex {
     background-color: #e2e9ec;
     padding: 10px;
 }
 
 
 
-.contenedor-menu{
-        
-         background-color: #f3dfb2;
-         width: 1350px;
-         height: 100px;
-         display: flex;
-         justify-content: space-between
-       
-     }
-    .menu{
-         width: 800px;
-         display: flex;
-         list-style: none;
-         gap: 3rem;
-         justify-content: flex-end;
-     }
-    
-    
-     /* .contenedorPrincipal{
+.contenedor-menu {
+
+    background-color: #f3dfb2;
+    width: 1350px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between
+}
+
+.menu {
+    width: 800px;
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    justify-content: flex-end;
+}
+
+
+/* .contenedorPrincipal{
         display: grid;
         grid-template-columns: repeat(4fr 1fr);
         grid-template-rows: 0,2fr 0,1fr 1fr;
@@ -119,39 +122,44 @@ header{
         "footer footer"
         ;
     } */
-    .contenedorPrincipal{
-        grid-area: titulo;
-    }
-    .contenedor-menu{
-        grid-area: nav;
-    }
-    .nosotrosindex{
-        grid-area: section;
-    }
-    .fondoFooter{
-        grid-area: footer;
-    }
+.contenedorPrincipal {
+    grid-area: titulo;
+}
 
-    
+.contenedor-menu {
+    grid-area: nav;
+}
 
-    .fondoHeader{
+.nosotrosindex {
+    grid-area: section;
+}
+
+.fondoFooter {
+    grid-area: footer;
+}
+
+
+
+.fondoHeader {
     display: grid;
     background-color: #eee5cd;
-    }
-    .fondoBody{
+}
+
+.fondoBody {
     background-color: #65ce54;
-    }
-    .formulario{
+}
+
+.formulario {
     display: flex;
     flex-flow: column nowrap;
     margin: 8rem auto;
     align-items: center;
     width: 50rem;
     height: auto;
-    border-radius: 1,5rem;
-    }
+    border-radius: 1, 5rem;
+}
 
-    .formularioInput{
+.formularioInput {
     width: 40rem;
     height: 4rem;
     margin: 2rem;
@@ -159,54 +167,58 @@ header{
     text-align: center;
     border: solid;
     border-width: 0.1rem;
-    }
-    .formularioInput{  
+}
+
+.formularioInput {
     height: 3rem;
     margin: 2rem;
     border-radius: 1rem;
     text-align: center;
-            
+}
+
+@media screen and (min-width:768px) {
+    body {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+
+            "titulo titulo titulo"
+            "nav nav nav"
+            "section section section"
+            "footer footer footer"
     }
 
-   @media screen and (min-width:768px) {
-       body{
-           grid-template-columns: repeat(4,1fr);
-           grid-template-areas: 
-           
-           "titulo titulo titulo"
-           "nav nav nav"
-           "section section section"
-           "footer footer footer"
+    .contenedorPrincipal {
+        grid-area: titulo;
+        background-color: #ddec56;
 
-       }
-       .contenedorPrincipal{
-           grid-area: titulo;
-           background-color: #ddec56;
+    }
 
-       }
-       .contenedor-menu{
-           grid-area: nav;
-           background-color: #ec6f56;
-       }
-       .nosotrosindex{
-           grid-area: section;
-           background-color: #f0dc86;
-       }
-       .fondoFooter{
-           grid-area: footer;
-           background-color: rgb(175, 248, 72);
-       }
+    .contenedor-menu {
+        grid-area: nav;
+        background-color: #ec6f56;
+    }
 
-   }
-   @media screen and (min-width: 1200px) {
-       body{
-           grid-template-columns: repeat(4, 1fr);
-           grid-template-areas: 
-           "titulo titulo titulo titulo"
-           "nav nav section section"
-           "nav nav section section"
-           "footer footer footer footer"
-        }
+    .nosotrosindex {
+        grid-area: section;
+        background-color: #f0dc86;
+    }
+
+    .fondoFooter {
+        grid-area: footer;
+        background-color: rgb(175, 248, 72);
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            "titulo titulo titulo titulo"
+            "nav nav section section"
+            "nav nav section section"
+            "footer footer footer footer"
+    }
 
 
     a:hover{
@@ -214,4 +226,4 @@ header{
         background-color: #eeddac;
         color:#1e3945;
         text-decoration: underline;
-        }
+   }

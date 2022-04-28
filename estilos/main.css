@@ -3,32 +3,152 @@
   position: relative;
   padding: 10px 10px;
   font-weight: bold;
-  background-color: #d2f366; }
-  .menu li a {
-    text-decoration: none;
-    color: #111413; }
+  background-color: #d2f366;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #111413;
+}
+
+.carouselContainer {
+  position: relative;
+  width: 50%;
+  left: 25%;
+  padding: 5rem;
+  background-color: rgba(0, 0, 0, 0.667);
+  border-radius: 5rem;
+}
+
+.carousel-image {
+  height: 20rem;
+}
 
 .fondoFooter {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   background-color: #afb5b3;
   color: #292626;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: none !important;
+  grid-area: footer;
   text-align: center;
-  padding: 0px; }
-  .fondoFooter a {
-    text-decoration: none;
-    color: lightcoral; }
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
 
-.caja img {
-  height: 20rem;
-  border-radius: 3rem;
-  padding: 0.1rem;
-  width: 50rem;
-  background-position: right center;
-  background-repeat: no-repeat; }
+.fondoFooter a {
+  text-decoration: none;
+  color: lightcoral;
+}
 
 .bodyIndex {
   background-color: #ffffff;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0' gradientTransform='rotate(203,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%230FF'/%3E%3Cstop offset='1' stop-color='%23CF6'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(263,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23F00'/%3E%3Cstop offset='1' stop-color='%23FC0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='3.3'%3E%3Cpath transform='translate(-211.4 19.2) rotate(4.199999999999999 1409 581) scale(0.9284)' d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='1.1' transform='translate(-230 152) rotate(19.6 800 450) scale(1.0227)' cx='500' cy='100' r='40'/%3E%3Cpath transform='translate(53.6 -222) rotate(170 401 736) scale(1.0227)' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='1'%3E%3Cpath transform='translate(912 -8.8) rotate(2.2 150 345) scale(0.9468000000000001)' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='2.2' transform='translate(-322 -406) rotate(172.8 1089 759)' x='1039' y='709' width='100' height='100'/%3E%3Cpath transform='translate(-620.8 179.2) rotate(28.8 1400 132) scale(0.74)' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+}
 
-  
+.bodyIndex div header {
+  background-color: #d2F366;
+}
+
+.bodyIndex div header nav ul li a {
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.bodyIndex div header nav ul li a:hover {
+  color: white;
+  -webkit-transition: .6s;
+  transition: .6s;
+  background-color: #65ce54;
+}
+
+.fondoHeader {
+  display: -ms-grid;
+  display: grid;
+  background-color: #eee5cd;
+}
+
+.fondoBody {
+  background-color: #65ce54;
+}
+
+.testColumns {
+  background-color: rgba(36, 6, 6, 0.397);
+  padding: 5rem;
+}
+
+.testColumns :nth-child(1) {
+  background-color: white;
+  height: 100%;
+}
+
+.testColumns :nth-child(2) {
+  background-color: #00ff22;
+  height: 100%;
+}
+
+.testColumns :nth-child(3) {
+  background-color: #f377ab;
+  height: 100%;
+}
+
+section.introMessage {
+  width: 100%;
+}
+
+section.introMessage .caja {
+  background-color: #080808ce;
+  padding: 2rem;
+  border-radius: 5rem;
+  overflow: hidden;
+  width: 50vw;
+  position: relative;
+  left: 25%;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+section.introMessage .caja img {
+  width: 90%;
+}
+
+section.introMessage .caja p {
+  background-color: rgba(0, 0, 0, 0.342);
+  border-radius: 5rem;
+  padding: 3rem;
+  width: 40ch;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  top: 9%;
+  text-align: center;
+}
+
+section.introMessage .caja p:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: black;
+}
+
+@media screen and (max-height: 800px) {
+  .introMessage .caja {
+    padding: 10rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
