@@ -140,10 +140,7 @@ header {
 
 
 
-.fondoHeader {
-    display: grid;
-    background-color: #eee5cd;
-}
+
 
 .fondoBody {
     background-color: #65ce54;
@@ -226,4 +223,6 @@ header {
         background-color: #eeddac;
         color:#1e3945;
         text-decoration: underline;
+   }
+
    }
