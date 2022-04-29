@@ -41,11 +41,7 @@
   justify-content: space-evenly;
 }
 
-.fondoFooter a {
-  text-decoration: none;
-  color: rgb(51, 82, 117);
-  
-}
+
 
 .bodyIndex {
 background-color: #BBBBBB;
@@ -82,9 +78,10 @@ background-size: cover;
 }
 
 .testColumns {
-  background-color: rgba(36, 6, 6, 0.397);
-  padding: 5rem;
+  background-color: rgba(139, 137, 137, 0.397);
+  padding: 3rem;
 }
+
 
 .testColumns :nth-child(1) {
   background-color: white;
@@ -140,6 +137,21 @@ section.introMessage .caja p {
   top: 9%;
   text-align: center;
 }
+.nosotros{
+background-image: url(https://milkshake-production-looks.imgix.net/assets/look11-bg-146f0930b61b2f5defcb51af39024bd2.svg);
+padding: 10rem;
+}
+ 
+.parrafoNosotros{
+  color: #5e665d;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
+}
+.mainNosotros{
+  width: 40%;
+  height: 30%;
+
+}
+
 
 section.introMessage .caja p:hover {
   -webkit-transition: 0.5s;
@@ -159,7 +171,15 @@ width: 30%;
 left: 15%;
 padding: 10rem;
 position: relative;
- }
+}
+
+.tituloContacto{
+  font-family: 'Albra',Helvetica,Arial,Lucida,sans-serif;
+  color: #7e7e7e;
+}
+
+
+
 
 .formulario{
   display: flex;
@@ -183,6 +203,15 @@ position: relative;
   border-radius: 1rem;
   text-align: center;
 }
+.headerNosotros{
+  background-color: #cbe3f5;
+  padding: 30px;
+}
+
+  
+
+
+
 
 @media screen and (max-height: 800px) {
   .introMessage .caja {
