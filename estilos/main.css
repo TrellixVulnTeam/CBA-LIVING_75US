@@ -193,7 +193,7 @@ padding: 30px;
 
 
 
-.cajaFormulario{
+.formulario{
   display: flex;
   flex-flow: column nowrap;
   margin: 2rem auto;
@@ -201,7 +201,6 @@ padding: 30px;
   width: 50rem;
   height: auto;
   border-radius: 1, 5rem;
-  max-width: 100%;
 }
 .formularioInput {
   width: 30rem;
