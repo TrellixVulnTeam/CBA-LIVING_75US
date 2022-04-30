@@ -3,12 +3,13 @@
   position: relative;
   padding: 5px 5px;
   font-weight: bold;
-  background-color: #7e7e7e;
+  background-color: #aba5a5;
 }
 
 .menu li a {
   text-decoration: none;
   color: #111413;
+  font-family: 'titulos',Helvetica,Arial,Lucida,sans-serif;
 }
 
 .carouselContainer {
@@ -166,22 +167,33 @@ background-attachment: fixed;
 background-size: cover;
 }
 .fondoHeader{
-background-color: #bddbe7;
-width: 30%;
-left: 15%;
-padding: 10rem;
-position: relative;
+background-color: #badeec;
+padding: 30px;
 }
 
 .tituloContacto{
-  font-family: 'Albra',Helvetica,Arial,Lucida,sans-serif;
-  color: #7e7e7e;
+  font-family: 'Shadows Into Light Two',handwriting;
+  color: #686262;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 26px;
+  text-align: center;
 }
+.cajaCelu img{
+  width: 35%;
+  background-color: #626465ec;
+  margin: 50px;
+  padding: 0px;
+   
+    
+  
+  }
 
 
 
 
-.formulario{
+.cajaFormulario{
   display: flex;
   flex-flow: column nowrap;
   margin: 2rem auto;
@@ -189,6 +201,7 @@ position: relative;
   width: 50rem;
   height: auto;
   border-radius: 1, 5rem;
+  max-width: 100%;
 }
 .formularioInput {
   width: 30rem;
@@ -208,7 +221,20 @@ position: relative;
   padding: 30px;
 }
 
+.fondoImagenes {
+  background-color: #b6c5b8;
+  padding: 30px;
+  }
+.productos{
+  font-family: 'Shadows Into Light Two',handwriting;
+  color: #545554;
+}
   
+  
+  .imgFondo{
+    background-image: url(../Imagenes/fondoimagenes.jpg);
+    padding-top: 500px;
+  }
 
 
 
