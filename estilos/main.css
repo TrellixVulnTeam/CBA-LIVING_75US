@@ -3,13 +3,20 @@
   position: relative;
   padding: 5px 5px;
   font-weight: bold;
-  background-color: #aba5a5;
+  font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-size: 15px;
+ 
+  
 }
 
 .menu li a {
   text-decoration: none;
-  color: #111413;
+  color: #052f21;
   font-family: 'titulos',Helvetica,Arial,Lucida,sans-serif;
+  
+  
 }
 
 .carouselContainer {
@@ -52,7 +59,10 @@ background-size: cover;
 }
 
 .bodyIndex div header {
-  background-color: #bddbe7;
+  background: rgb(178,218,255);
+background: linear-gradient(90deg, rgba(178,218,255,1) 0%, rgba(213,222,216,0.969625350140056) 35%, rgba(240,114,117,1) 100%);
+  text-align: right;
+  
   
 }
 
@@ -62,7 +72,7 @@ background-size: cover;
 }
 
 .bodyIndex div header nav ul li a:hover {
-  color: rgb(218, 83, 83);
+  color: rgb(246, 246, 246);
   -webkit-transition: .6s;
   transition: .6s;
   background-color: #838982;
@@ -72,6 +82,7 @@ background-size: cover;
   display: -ms-grid;
   display: grid;
   background-color: #eee5cd;
+  
 }
 
 .fondoBody {
@@ -189,7 +200,12 @@ padding: 10rem;
   
  }
 
-
+.logoIx{
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
 .logoS{
   height: 50px;
   display: flex;
