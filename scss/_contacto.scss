@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.fondoBody{
+    background-color: rgb(198, 229, 229);
+    font-family: Arial, Helvetica, sans-serif;
+     }
+.form_Contact{
+    background-color: rgb(226, 217, 205);
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    box-shadow: 7px 13px 37px rgb(101, 101, 115);
+}
+header{
+    width: 100%;
+    background-color: rgb(203, 200, 199);
+    overflow: hidden;
+    color: rgb(193, 29, 100);
+    span{
+        font-size: 100px;
+        display: block;
+        text-align: center;
+        padding: 2,5rem;
+    
+    }
+}
+.contac{
+        padding: .8rem;
+        overflow: hidden;
+        color: rgb(161, 161, 154);
+        }
+
+.contac label, .contac input, .contac textarea{
+        display: block;
+        width: 100%;
+        margin-bottom: 8px;
+        }
+.contac label{
+        font-weight: 700px;
+        }
+
+.contac input, .contac textarea{
+        border: none;
+        border-radius: 2px solid rgb(108, 44, 44);
+        margin-bottom: 20px;
+        font-size: 20px;
+        }
+.contac textarea{
+        min-height: 100px;
+ }
+.cabecera_C{
+    background-color: bisque;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    a{
+        color: rgb(192, 150, 95);
+}
+}
