@@ -1,0 +1,37 @@
+ h1{
+    color: rgb(92, 91, 88);
+    text-align: center;
+    background-color: aliceblue;
+    font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 20px;
+   }
+.bodyServ{
+    background-image: url(../Imagenes/fondoindex.jpg);
+    background-size: 100%;
+}
+.galeriaS{
+    padding: 30px;
+    margin: 40px;
+    justify-content: center;
+    margin-top: 10px 20px;
+    box-shadow: 0 4px 8px 0 rgb(235, 221, 221), 0 6px 20px 0 rgb(158, 233, 9) (0,0,0,0.19);
+    float: left;
+    width: 350px;
+     img{
+    width: 100%;
+    height: auto;  
+ }
+}
+.galeriaS:hover{
+    border: 1px rgb(248, 244, 239);
+    transform: rotate(-3deg);
+}
+.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(137, 136, 136);
+    padding: 10px;
+    font-weight: 900px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}

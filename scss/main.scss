@@ -1,16 +1,28 @@
 @import "contacto";
+@import "nosotros";
+@import "servicios";
+@import "imagenes";
 
 
 .headerIdx{
-    background-color: rgba(209, 181, 209, 0.644);
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    
+     }
+.caja__logo img{
+    width: 200px; 
+    padding: 0;
+    
 }
+
+
 .navegacionLi li{
     list-style-type: none;
     display: inline-block;
     text-align: center;
     a{
         text-decoration: none;
-        color: rgb(37, 106, 106);
+        color: rgb(13, 113, 113);
         padding: 20px;
         display: block;
         font-weight: bold;
@@ -18,38 +30,65 @@
     }
     }
     a:hover{
-        background-color: rgb(234, 229, 229);
+        background-color: rgb(246, 189, 189);
     }
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
+
 .container-all{
-    width: 100%;
-    max-width: 1000px;
-    margin: auto;
-    padding: 60px;
-    background: rgba(250, 235, 215, 0.706);
-    margin-top: 30px;
-    border-top: 6px solid rgb(247, 203, 145);
-}
-.caja2 img{
-    width: 200px;
-   
+    width: 95%;
+    max-width: 600px;
+    margin: auto 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
     }
-.container-all p{
-    font-size: 18px;
-    font: 200px;
-    margin-bottom: 60px;   
-}
+    
+    img{
+        width: 160%;
+        padding: 30px;  
+    }
+    
+
+.text  {
+        background-color: rgba(21, 19, 19, 0.342);
+        border-radius: 3rem;
+        padding: 4rem;
+        margin: auto;
+        color: rgb(11, 11, 11);
+        font-weight: 500;
+        position: absolute;
+        top: 25%;
+        text-align: center;
+        font-size: 20px;
+        background-image: radial-gradient(circle at center,#f0ebe1 0%,rgba(240,235,225,0.65) 100%);
+        .h1index{
+            color: rgb(57, 35, 35);
+            font-size: 30px;
+            font-family: 'century',Helvetica,Arial,Lucida,sans-serif;
+            background-color: rgba(49, 49, 49, 0);
+        }
+        
+      }
+      
+       .caja p .h1index:hover {
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        background-color: rgba(65, 64, 64, 0.056);
+       }
+       
+
+
 
 .bodyIdx{
-    margin: 0%;
-    background-color: rgb(229, 225, 225);
+    background-image: url(../Imagenes/fondoindex.jpg);
+    background-size: 100%;
 }
 .container__footer{
-    background-color: rgb(211, 234, 201);
+    background-color: rgb(240, 230, 238);
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
@@ -64,9 +103,7 @@
         font-weight: 700px; 
   }
 }
-.caja__footer img{
-    width: 180px; 
-}
+
 .div_Padre{
     background-color: rgb(197, 229, 229);
     margin: 50px;
