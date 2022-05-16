@@ -17,17 +17,12 @@
 }
 header{
     width: 100%;
-    background-color: rgb(203, 200, 199);
+    background-color: rgb(208, 254, 254);
     overflow: hidden;
-    color: rgb(193, 29, 100);
-    span{
-        font-size: 100px;
-        display: block;
-        text-align: center;
-        padding: 2,5rem;
-    
-    }
+    color: rgb(159, 169, 202);
+    padding: 20px;
 }
+
 .contac{
         padding: .8rem;
         overflow: hidden;
@@ -52,13 +47,11 @@ header{
 .contac textarea{
         min-height: 100px;
  }
-.cabecera_C{
-    background-color: bisque;
+
+.tituloContac{
+    color: rgb(135, 135, 133);
     padding: 30px;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: gray;
-    a{
-        color: rgb(192, 150, 95);
-}
-}
+    font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 25px;
+ }

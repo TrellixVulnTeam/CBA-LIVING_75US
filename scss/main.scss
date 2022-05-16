@@ -2,12 +2,12 @@
 @import "nosotros";
 @import "servicios";
 @import "imagenes";
+@import "variables";
 
 
 .headerIdx{
-    background-color: rgb(255, 255, 255);
     padding: 30px;
-    
+    background-color: cornsilk
      }
 .caja__logo img{
     width: 200px; 
@@ -101,6 +101,11 @@
         color: rgb(219, 122, 122);
         margin-bottom: 40px;
         font-weight: 700px; 
+        a{
+            color: rgb(98, 137, 124);
+            width: 30px;
+    
+        }
   }
 }
 

@@ -17,14 +17,10 @@
 
 header {
   width: 100%;
-  background-color: #cbc8c7;
+  background-color: #d0fefe;
   overflow: hidden;
-  color: #c11d64; }
-  header span {
-    font-size: 100px;
-    display: block;
-    text-align: center;
-    padding: 2,5rem; }
+  color: #9fa9ca;
+  padding: 20px; }
 
 .contac {
   padding: .8rem;
@@ -48,21 +44,18 @@ header {
 .contac textarea {
   min-height: 100px; }
 
-.cabecera_C {
-  background-color: bisque;
+.tituloContac {
+  color: #878785;
   padding: 30px;
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: gray; }
-  .cabecera_C a {
-    color: #c0965f; }
+  font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
+  font-size: 25px; }
 
 .titulo_N {
   font-weight: 300px;
   text-align: center;
   color: #a3a7a6;
-  padding: 30px;
-  background-color: #f3ecec; }
+  padding: 30px; }
 
 .contenido_Nosotros {
   display: flex;
@@ -80,12 +73,12 @@ header {
 .imagen img {
   width: 70%; }
 
-h1 {
+.svS {
   color: #5c5b58;
+  padding: 30px;
   text-align: center;
-  background-color: aliceblue;
   font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
-  font-size: 20px; }
+  font-size: 25px; }
 
 .bodyServ {
   background-image: url(../Imagenes/fondoindex.jpg);
@@ -122,12 +115,12 @@ html body {
   background-image: url(../Imagenes/fondoindex.jpg);
   background-size: 100%; }
 
-.title {
+.titleImg {
+  color: #878785;
+  padding: 30px;
   text-align: center;
-  font-size: 40px;
-  color: #4b4b4b;
-  margin-top: 50px;
-  font-weight: 100; }
+  font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
+  font-size: 25px; }
 
 .container_Img {
   width: 100%;
@@ -166,8 +159,8 @@ html body {
   font-family: 'century',Helvetica,Arial,Lucida,sans-serif; }
 
 .headerIdx {
-  background-color: white;
-  padding: 30px; }
+  padding: 30px;
+  background-color: cornsilk; }
 
 .caja__logo img {
   width: 200px;
@@ -246,6 +239,9 @@ img {
     color: #db7a7a;
     margin-bottom: 40px;
     font-weight: 700px; }
+    .container__footer .h2F a {
+      color: #62897c;
+      width: 30px; }
 
 .div_Padre {
   background-color: #c5e5e5;
