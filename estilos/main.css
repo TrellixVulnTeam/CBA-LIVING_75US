@@ -1,14 +1,11 @@
-* {
-  margin: 0%;
-  padding: 0%; }
-
 .fondoBody {
   background-image: url(../Imagenes/fondoindex.jpg);
   font-family: Arial, Helvetica, sans-serif;
-  background-size: 100%; }
+  background-size: 100%;
+  padding: 20px; }
 
 .form_Contact {
-  background-color: #e2d9cd;
+  background-color: #ebd8c0;
   width: 400px;
   position: absolute;
   top: 50%;
@@ -17,9 +14,9 @@
 
 header {
   width: 100%;
-  background-color: #d0fefe;
+  background-color: #d9dddd;
   overflow: hidden;
-  color: #9fa9ca;
+  color: #6c456a;
   padding: 20px; }
 
 .contac {
@@ -44,18 +41,33 @@ header {
 .contac textarea {
   min-height: 100px; }
 
-.tituloContac {
-  color: #878785;
-  padding: 30px;
-  text-align: center;
-  font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
-  font-size: 25px; }
+.spanCont {
+  color: #f3ccd6; }
+  .spanCont h1 {
+    color: #5b5b5b;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 25px;
+    text-decoration: underline; }
+  .spanCont a {
+    background-color: #b96bb0;
+    font-size: 25px;
+    color: black; }
 
-.titulo_N {
-  font-weight: 300px;
-  text-align: center;
-  color: #a3a7a6;
-  padding: 30px; }
+.spanNos {
+  color: #f3ccd6; }
+  .spanNos h1 {
+    color: #878785;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 25px;
+    text-decoration: underline; }
+  .spanNos a {
+    background-color: #e6c3e1;
+    font-size: 25px;
+    color: black; }
 
 .contenido_Nosotros {
   display: flex;
@@ -73,12 +85,19 @@ header {
 .imagen img {
   width: 70%; }
 
-.svS {
-  color: #5c5b58;
-  padding: 30px;
-  text-align: center;
-  font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
-  font-size: 25px; }
+.spanSer {
+  color: #f3ccd6; }
+  .spanSer h1 {
+    color: #878785;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 25px;
+    text-decoration: underline; }
+  .spanSer a {
+    background-color: #e6c3e1;
+    font-size: 25px;
+    color: black; }
 
 .bodyServ {
   background-image: url(../Imagenes/fondoindex.jpg);
@@ -120,7 +139,8 @@ html body {
   padding: 30px;
   text-align: center;
   font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
-  font-size: 25px; }
+  font-size: 25px;
+  text-decoration: underline; }
 
 .container_Img {
   width: 100%;
@@ -158,6 +178,20 @@ html body {
   font-size: 16px;
   font-family: 'century',Helvetica,Arial,Lucida,sans-serif; }
 
+.spanImg {
+  color: #f3ccd6; }
+  .spanImg h1 {
+    color: #878785;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 25px;
+    text-decoration: underline; }
+  .spanImg a {
+    background-color: #e6c3e1;
+    font-size: 25px;
+    color: black; }
+
 .headerIdx {
   padding: 30px;
   background-color: cornsilk; }
@@ -179,7 +213,7 @@ html body {
     font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif; }
 
 a:hover {
-  background-color: #f6bdbd; }
+  background-color: #dddbdb; }
 
 * {
   margin: 0%;
@@ -226,22 +260,22 @@ img {
   background-size: 100%; }
 
 .container__footer {
-  background-color: #f0e6ee;
-  background-size: cover;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: auto;
-  margin-top: 50px;
+  background-color: #dcdcff;
   padding: 20px; }
   .container__footer .h2F {
-    color: #db7a7a;
+    color: #574141;
     margin-bottom: 40px;
-    font-weight: 700px; }
+    font-weight: 700px;
+    margin-right: 10px;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 15px; }
     .container__footer .h2F a {
-      color: #62897c;
-      width: 30px; }
+      color: #90668d;
+      width: 30px;
+      margin-left: 50%;
+      padding: 20px;
+      font-size: 20px; }
 
 .div_Padre {
   background-color: #c5e5e5;
@@ -264,3 +298,15 @@ img {
     text-align: center;
     font-family: 'Cookie', cursive;
     font-weight: bold; }
+
+.whatsapp {
+  position: fixed;
+  width: 70px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 50px;
+  font-size: 30px;
+  margin-right: 30px;
+  margin-top: 50px; }
