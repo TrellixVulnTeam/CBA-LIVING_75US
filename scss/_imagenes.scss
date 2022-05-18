@@ -22,17 +22,17 @@ html body{
     justify-content: center;
     margin: auto;
     .imagen {
-        width: 330px;
-        height: 430px;
+        width: 350px;
+        height: 450px;
         border-radius: 8px;
         box-shadow: 0 2px 2px rosybrown(0,0,0,0.2);
         overflow: hidden;
-        margin: 20px;
+        margin: 10px;
         text-align: center;
         transition: all 0,25s;
        img{
-           width: 330px;
-           height: 220px;
+           width: 350px;
+           height: 300px;
        } 
     }
 }

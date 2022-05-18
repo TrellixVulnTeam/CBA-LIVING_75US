@@ -6,27 +6,28 @@
 
 
 .headerIdx{
-    padding: 30px;
-    background-color: cornsilk
+    padding: 15px;
+    background-color: rgb(255, 255, 255)
      }
 .caja__logo img{
-    width: 200px; 
-    padding: 0;
-    
+    width: 200px;
+    float: left;
 }
 
 
 .navegacionLi li{
-    list-style-type: none;
     display: inline-block;
-    text-align: center;
-    a{
+    font-size: 30;
+    padding: 20px;
+    margin-left: 50px;
+    a {
         text-decoration: none;
         color: rgb(13, 113, 113);
         padding: 20px;
         display: block;
         font-weight: bold;
         font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
+
     }
     }
     a:hover{
@@ -39,9 +40,7 @@
 }
 
 .container-all{
-    width: 95%;
-    max-width: 600px;
-    margin: auto 100px;
+    width: 60%;
     position: relative;
     display: flex;
     align-items: center;
@@ -49,15 +48,15 @@
     
     img{
         width: 160%;
-        padding: 30px;  
+        padding: 30px; 
+        margin: 20px 20px;
     }
     
 
 .text  {
         background-color: rgba(21, 19, 19, 0.342);
-        border-radius: 3rem;
+        border-radius: 2rem;
         padding: 4rem;
-        margin: auto;
         color: rgb(11, 11, 11);
         font-weight: 500;
         position: absolute;
@@ -82,7 +81,6 @@
        
 
 
-
 .bodyIdx{
     background-image: url(../Imagenes/fondoindex.jpg);
     background-size: 100%;
@@ -98,13 +96,13 @@
         padding: 20px;
         text-transform: uppercase;
         font-size: 15px;
-        a{
-            color: rgb(144, 102, 141);
-            width: 30px;
-            margin-left: 50%;
-            padding: 20px;
+        .div a{
+            color: rgb(106, 135, 207);
+            width: 50px;
             font-size: 20px;
-    
+            display: inline;
+            position: relative;
+            text-align: center;
         }
   }
 }
@@ -143,8 +141,11 @@
     line-height: 55px;
     bottom: 30px;    
     right: 30px;
-    border-radius: 50px;
     font-size: 30px;
-    margin-right: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-width: 30px;
+    margin: 20px 20px;
+
     }
+    
