@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagenes/Screenshot_20220312-151633_Adobe-Acrobat.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/e8a1a00d91.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./estilos/main.css"
+    <link rel="stylesheet" href="./estilos/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
    
     
     
@@ -21,9 +22,10 @@
 
 </head>
 
-<body class="bodyIdx">
-        <header class="headerIdx">
-            <div class="caja__logo">
+<body class="container-fluid bodyIdx">
+    
+        <header class="row container">
+            <div class="col-lg-12  col-md-12 col-sm-12 caja__logo">
                 <img src="./Imagenes/logo.png" alt="">
             </div>
         <nav class="navegacionLi">
@@ -37,26 +39,29 @@
         </nav>
         
     </header>
-
-    
-    <section class="rowintroMessage">
-
-        <div class="container-all">
-            <img src="./Imagenes/francesca-tosolini-w1RE0lBbREo-unsplash.jpg" alt="">
-            <div class="text">
-                <h1 class="h1index">¡Hola soy Matías!</h1>
-                <p><strong>Bienvenidos a la experiencia CBA LIVING.</strong> 
-                    Un espacio donde encontrarás todos los muebles para armar la habitación de tus sueños</p>
-            </div>
-            
+    <main>
+        <div class="col-lg-12  col-md-12 col-sm-12 text">
+            <p class="parrafo"><strong>¡Hola soy Matías! Bienvenidos a la experiencia CBA LIVING.</strong> 
+                Un espacio donde encontrarás todos los muebles para armar la habitación de tus sueños</p>
         </div>
+    </main>
+
+
+    <section class="row introMessage">
+
+        <div class="col-lg-12  col-md-12 col-sm-12  container-all">
+            <img src="./Imagenes/francesca-tosolini-w1RE0lBbREo-unsplash.jpg" alt="">
+        </div>
+        
+
+        
     </section>
            <div class="whatsapp">
                <a href="https://wa.me/35356266027?text=Escribinos%20para%20mayor%20información%20php" target="_blank">
                 <img class="boton" src="./Imagenes/whatsapp.png" alt="">
             </a>
            </div>
-    <footer>
+    <footer class="footer">
         <div class="container__footer">
             <div class="h2F">
                 <h2>Mis redes sociales</h2>

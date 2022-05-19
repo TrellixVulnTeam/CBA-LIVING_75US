@@ -4,10 +4,14 @@
 @import "imagenes";
 @import "variables";
 
+html{
+        padding: 0;
+        margin: 0;
+}
 
-.headerIdx{
-    padding: 15px;
-    background-color: rgb(255, 255, 255)
+.container{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
      }
 .caja__logo img{
     width: 200px;
@@ -19,7 +23,7 @@
     display: inline-block;
     font-size: 30;
     padding: 20px;
-    margin-left: 50px;
+   
     a {
         text-decoration: none;
         color: rgb(13, 113, 113);
@@ -33,42 +37,43 @@
     a:hover{
         background-color: rgb(221, 219, 219);
     }
-* {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
+
 
 .container-all{
     width: 60%;
     position: relative;
     display: flex;
     align-items: center;
+    grid-template-columns: 50% 50%;
     }
     
     img{
-        width: 160%;
+        width: 110%;
+        height: 60%;
         padding: 30px; 
         margin: 20px 20px;
+        text-align: center;
     }
     
 
 .text  {
         background-color: rgba(21, 19, 19, 0.342);
-        border-radius: 2rem;
-        padding: 4rem;
+        border-radius: 1rem;
+        padding: 2rem;
+        align-items: center;
+        margin: 30px 30px 30px 30px;
+        justify-content: right;
         color: rgb(11, 11, 11);
-        font-weight: 500;
-        position: absolute;
-        top: 25%;
-        text-align: center;
-        font-size: 20px;
+        font-weight: 400;
+        font-size: 15px;
         background-image: radial-gradient(circle at center,#f0ebe1 0%,rgba(240,235,225,0.65) 100%);
-        .h1index{
+       
+        .parrafo{
             color: rgb(57, 35, 35);
-            font-size: 30px;
+            font-size: 25px;
             font-family: 'century',Helvetica,Arial,Lucida,sans-serif;
             background-color: rgba(49, 49, 49, 0);
+            align-items: center;
         }
         
       }
@@ -92,8 +97,8 @@
         color: rgb(87, 65, 65);
         margin-bottom: 40px;
         font-weight: 700px; 
-        margin-right: 10px;
-        padding: 20px;
+        margin: 30px 20px;
+        padding: 30px;
         text-transform: uppercase;
         font-size: 15px;
         .div a{
@@ -148,4 +153,5 @@
     margin: 20px 20px;
 
     }
+   
     
