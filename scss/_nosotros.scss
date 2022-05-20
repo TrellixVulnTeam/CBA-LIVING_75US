@@ -16,14 +16,14 @@
 
 }
 
-
-
-
-
 .contenido_Nosotros{
     display: flex;
     grid-template-columns: 50% 50%;
     margin: 30px;
+    @media screen and (max-width: 575px)
+    {
+            grid-area: form;
+    }
     .textoNosotros blockquote{
         font-weight: 900;
         font-size: 25px;

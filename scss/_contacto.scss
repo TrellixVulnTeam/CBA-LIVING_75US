@@ -2,33 +2,40 @@
 .fondoBody{
     background-image: url(../Imagenes/fondoindex.jpg);
     font-family: Arial, Helvetica, sans-serif;
-    background-size: 100%;
+    background-size: 200%;
     padding: 20px;
+    background-repeat: no-repeat;
     
      }
-.form_Contact{
+.form_Contact .header{
     background-color: rgb(235, 216, 192);
     width: 400px;
     position: absolute;
     top: 50%;
     left: 30%;
-    box-shadow: 7px 13px 37px rgb(101, 101, 115);
-}
-header{
-    width: 100%;
+    right: 30px;
+    box-shadow: 7px 13px 37px rgb(146, 232, 254);
+    @media screen and (max-width: 575px)
+    {
+            grid-area: form;
+    }
+ }
+ 
+.header{
+    width: 95%;
     background-color: rgb(217, 221, 221);
     overflow: hidden;
-    color: rgb(108, 69, 106);
-    padding: 20px;
+    color: rgb(193, 78, 187);
+    padding: 30px;
 }
 
 .contac{
         padding: .8rem;
         overflow: hidden;
-        color: rgb(161, 161, 154);
+        color: rgb(98, 98, 91);
         }
 
-.contac label, .contac input, .contac textarea{
+.contac label, .contac input, .contac textarea header{
         display: block;
         width: 100%;
         margin-bottom: 8px;
@@ -47,7 +54,7 @@ header{
         min-height: 100px;
  }
 
-.spanCont{
+.spanCont header{
         color: rgb(243, 204, 214);
         h1{
         color: rgb(91, 91, 91);
@@ -58,10 +65,13 @@ header{
         text-decoration: underline;       
         }
         a{
-        background-color: rgb(185, 107, 176);
+        background-color: rgb(210, 180, 207);
         font-size: 25px;
         color: black;
         }
 
 }
-
+html{
+        padding: 0;
+        margin: 0;
+}

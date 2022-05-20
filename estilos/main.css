@@ -1,30 +1,35 @@
 .fondoBody {
   background-image: url(../Imagenes/fondoindex.jpg);
   font-family: Arial, Helvetica, sans-serif;
-  background-size: 100%;
-  padding: 20px; }
+  background-size: 200%;
+  padding: 20px;
+  background-repeat: no-repeat; }
 
-.form_Contact {
+.form_Contact .header {
   background-color: #ebd8c0;
   width: 400px;
   position: absolute;
   top: 50%;
   left: 30%;
-  box-shadow: 7px 13px 37px #656573; }
+  right: 30px;
+  box-shadow: 7px 13px 37px #92e8fe; }
+  @media screen and (max-width: 575px) {
+    .form_Contact .header {
+      grid-area: form; } }
 
-header {
-  width: 100%;
+.header {
+  width: 95%;
   background-color: #d9dddd;
   overflow: hidden;
-  color: #6c456a;
-  padding: 20px; }
+  color: #c14ebb;
+  padding: 30px; }
 
 .contac {
   padding: .8rem;
   overflow: hidden;
-  color: #a1a19a; }
+  color: #62625b; }
 
-.contac label, .contac input, .contac textarea {
+.contac label, .contac input, .contac textarea header {
   display: block;
   width: 100%;
   margin-bottom: 8px; }
@@ -41,19 +46,23 @@ header {
 .contac textarea {
   min-height: 100px; }
 
-.spanCont {
+.spanCont header {
   color: #f3ccd6; }
-  .spanCont h1 {
+  .spanCont header h1 {
     color: #5b5b5b;
     padding: 30px;
     text-align: center;
     font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
     font-size: 25px;
     text-decoration: underline; }
-  .spanCont a {
-    background-color: #b96bb0;
+  .spanCont header a {
+    background-color: #d2b4cf;
     font-size: 25px;
     color: black; }
+
+html {
+  padding: 0;
+  margin: 0; }
 
 .spanNos {
   color: #f3ccd6; }
@@ -73,6 +82,9 @@ header {
   display: flex;
   grid-template-columns: 50% 50%;
   margin: 30px; }
+  @media screen and (max-width: 575px) {
+    .contenido_Nosotros {
+      grid-area: form; } }
   .contenido_Nosotros .textoNosotros blockquote {
     font-weight: 900;
     font-size: 25px;
