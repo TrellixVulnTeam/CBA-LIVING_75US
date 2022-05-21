@@ -38,3 +38,15 @@
 .imagen img{
     width: 70%;
 }
+
+@media (max-width:950px){
+    .imagen img{
+        width: 200%;
+    }
+    .textoNosotros{
+        padding-bottom: 1rem;
+    }
+    .blockquote{
+        margin-top: 50px;
+    }
+}

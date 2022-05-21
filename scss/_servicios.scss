@@ -19,21 +19,25 @@
 
 
 
+
 .bodyServ{
     background-image: url(../Imagenes/fondoindex.jpg);
     background-size: 100%;
+
 }
 .galeriaS{
+    display: flex;
     padding: 30px;
     margin: 40px;
     justify-content: center;
     margin-top: 10px 20px;
     box-shadow: 0 4px 8px 0 rgb(235, 221, 221), 0 6px 20px 0 rgb(158, 233, 9) (0,0,0,0.19);
     float: left;
-    width: 350px;
+    width: 180px;
      img{
     width: 100%;
     height: auto;  
+    text-align: center;
  }
 }
 .galeriaS:hover{

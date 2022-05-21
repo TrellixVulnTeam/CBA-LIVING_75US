@@ -18,7 +18,6 @@
       grid-area: form; } }
 
 .header {
-  width: 95%;
   background-color: #d9dddd;
   overflow: hidden;
   color: #c14ebb;
@@ -97,6 +96,14 @@ html {
 .imagen img {
   width: 70%; }
 
+@media (max-width: 950px) {
+  .imagen img {
+    width: 200%; }
+  .textoNosotros {
+    padding-bottom: 1rem; }
+  .blockquote {
+    margin-top: 50px; } }
+
 .spanSer {
   color: #f3ccd6; }
   .spanSer h1 {
@@ -116,16 +123,18 @@ html {
   background-size: 100%; }
 
 .galeriaS {
+  display: flex;
   padding: 30px;
   margin: 40px;
   justify-content: center;
   margin-top: 10px 20px;
   box-shadow: 0 4px 8px 0 #ebdddd, 0 6px 20px 0 #9ee909 0, 0, 0, 0.19;
   float: left;
-  width: 350px; }
+  width: 180px; }
   .galeriaS img {
     width: 100%;
-    height: auto; }
+    height: auto;
+    text-align: center; }
 
 .galeriaS:hover {
   border: 1px #f8f4ef;
@@ -203,77 +212,134 @@ html body {
     font-size: 25px;
     color: black; }
 
-html {
-  padding: 0;
-  margin: 0; }
-
-.container {
-  padding: 10px;
-  background-color: white; }
-
-.caja__logo img {
-  width: 200px;
-  float: left; }
-
-.navegacionLi li {
-  display: inline-block;
-  font-size: 30;
-  padding: 20px; }
-  .navegacionLi li a {
-    text-decoration: none;
-    color: #0d7171;
-    padding: 20px;
-    display: block;
-    font-weight: bold;
-    font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif; }
-
-a:hover {
-  background-color: #dddbdb; }
-
-.container-all {
-  width: 60%;
-  position: relative;
-  display: flex;
-  align-items: center;
-  grid-template-columns: 50% 50%; }
-
-img {
-  width: 110%;
-  height: 60%;
-  padding: 30px;
-  margin: 20px 20px;
-  text-align: center; }
-
-.text {
-  background-color: rgba(21, 19, 19, 0.342);
-  border-radius: 1rem;
-  padding: 2rem;
-  align-items: center;
-  margin: 30px 30px 30px 30px;
-  justify-content: right;
-  color: #0b0b0b;
-  font-weight: 400;
-  font-size: 15px;
-  background-image: radial-gradient(circle at center, #f0ebe1 0%, rgba(240, 235, 225, 0.65) 100%); }
-  .text .parrafo {
-    color: #392323;
-    font-size: 25px;
-    font-family: 'century',Helvetica,Arial,Lucida,sans-serif;
-    background-color: rgba(49, 49, 49, 0);
-    align-items: center; }
-
-.caja p .h1index:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  background-color: rgba(65, 64, 64, 0.056); }
+* {
+  margin: 0;
+  padding: 0; }
 
 .bodyIdx {
-  background-image: url(../Imagenes/fondoindex.jpg);
-  background-size: 100%; }
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+.header-I {
+  box-shadow: 0 4px 5px #5c5052;
+  background-color: aliceblue;
+  left: 0;
+  top: 0;
+  width: 100%; }
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  max-width: 980px;
+  margin: 0 auto; }
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .menu li {
+    padding: 0 15px; }
+  .menu a {
+    text-decoration: none;
+    color: #747375;
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 50px;
+    text-transform: uppercase; }
+    .menu a:hover {
+      background-color: #d1efe5;
+      filter: brightness(130%);
+      padding: 8px 12px;
+      border-radius: 3px; }
+
+.logo img {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 50px 50px; }
+
+.boton-menu {
+  display: none; }
+
+.close-menu {
+  display: none; }
+
+@media (max-width: 950px) {
+  .menu {
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    overflow-y: auto;
+    opacity: 0.5; }
+  li {
+    padding: 0; }
+  a {
+    color: #4c4a4a;
+    line-height: 50px; } }
+
+.profile-img {
+  width: 250%;
+  max-width: 350px;
+  margin: 20px 20px; }
+
+.profile-info {
+  margin-bottom: 25px; }
+
+.perfil {
+  text-align: center; }
+
+.profile-titulo {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0;
+  color: #716e6e;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 20px 20px; }
+  .profile-titulo p {
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 1.3;
+    max-width: 450px;
+    margin: 0 auto; }
+
+.perfil-img-line {
+  background-color: #9f6767;
+  height: 10px;
+  left: 0;
+  width: 100%;
+  margin: 0; }
+
+@media (min-width: 950px) {
+  .perfil {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 0; }
+  .profile-info {
+    margin-bottom: 0; }
+  .profile-img-section {
+    width: 100%;
+    max-width: 50px;
+    padding-top: 50px; }
+  .profile-titulo, .parrafo {
+    font-size: 50px;
+    font-weight: 500px;
+    line-height: 1.3;
+    max-width: 450px;
+    margin: 20px 20px; } }
+
+.footer-header {
+  margin: auto; }
 
 .container__footer {
-  background-color: #dcdcff;
-  padding: 20px; }
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center; }
   .container__footer .h2F {
     color: #574141;
     margin-bottom: 40px;
@@ -283,34 +349,20 @@ img {
     text-transform: uppercase;
     font-size: 15px; }
     .container__footer .h2F .div a {
-      color: #6a87cf;
-      width: 50px;
-      font-size: 20px;
+      color: #e71c2d;
+      width: 100px;
+      font-size: 40px;
       display: inline;
       position: relative;
       text-align: center; }
 
-.div_Padre {
-  background-color: #c5e5e5;
-  margin: 50px; }
-  .div_Padre .div_Hijo {
-    height: 250px;
-    width: 200px;
-    display: inline-block;
-    margin-top: 50px; }
-    .div_Padre .div_Hijo .img {
-      height: 250px;
-      width: 200%;
-      display: inline; }
-
-.fondo_Hd {
-  background-color: #ffe8cc;
-  padding: 40px; }
-  .fondo_Hd .productos {
-    color: #939090;
+.cierre {
+  background-color: #7d7c7c;
+  padding: 15px; }
+  .cierre .cierre-titulo {
+    color: whitesmoke;
     text-align: center;
-    font-family: 'Cookie', cursive;
-    font-weight: bold; }
+    font-size: 20px; }
 
 .whatsapp {
   position: fixed;
@@ -324,3 +376,12 @@ img {
   margin-bottom: 30px;
   border-width: 30px;
   margin: 20px 20px; }
+  .whatsapp img {
+    width: 45px; }
+
+@media (max-width: 950px) {
+  .h1 {
+    font-size: 5px;
+    padding: 20px; }
+  .div a {
+    text-align: center; } }
