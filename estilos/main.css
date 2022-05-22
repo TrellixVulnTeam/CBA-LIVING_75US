@@ -299,15 +299,16 @@ html body {
   color: #716e6e;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 20px 20px; }
-  .profile-titulo p {
-    font-size: 18px;
-    font-weight: 500px;
-    line-height: 1.3;
-    max-width: 450px;
-    margin: 0 auto; }
+
+.parrafoIndex {
+  font-size: 25px;
+  line-height: 1.3;
+  max-width: 400px;
+  margin: 20px 20px;
+  color: #5b5858; }
 
 .perfil-img-line {
-  background-color: #9f6767;
+  background-color: #d5d3d3;
   height: 10px;
   left: 0;
   width: 100%;

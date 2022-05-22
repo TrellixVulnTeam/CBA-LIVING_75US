@@ -112,16 +112,20 @@ width: 100%;
     color: rgb(113, 110, 110);
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 20px 20px;
-    p{
-        font-size: 18px;
-        font-weight: 500px;
-        line-height: 1.3;
-        max-width: 450px;
-        margin: 0 auto;
-    }
 }
+.parrafoIndex{
+    font-size: 25px;
+    line-height: 1.3;
+    max-width: 400px;
+    margin: 20px 20px;
+    color: rgb(91, 88, 88);
+}
+
+
+
+
 .perfil-img-line{
-    background-color: rgb(159, 103, 103);
+    background-color: rgb(213, 211, 211);
     height: 10px;
     left: 0;
     width: 100%;
